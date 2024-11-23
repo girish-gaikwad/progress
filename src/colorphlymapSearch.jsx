@@ -94,7 +94,7 @@ const handlePlaceSelected = (place) => {
       {/* Search Bar */}
       <div style={{ position: "absolute", top: "10px", zIndex: 1000, width: "50%" }}>
         <Autocomplete
-          apiKey="AIzaSyCxpDBxDfuDG7lJ64iaaSOixb12WqPPdQo" // Replace with your Google Maps API key
+          apiKey="apikey" // Replace with your Google Maps API key
           onPlaceSelected={handlePlaceSelected}
           types={["(regions)"]} // Restrict results to regions
           placeholder="Search for a village, city, or district"
